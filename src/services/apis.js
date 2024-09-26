@@ -1,7 +1,11 @@
-const BASE_URL = process.env.REACT_APP_BASE_URL
+// const BASE_URL = process.env.REACT_APP_BASE_URL
+// const BASE_URL ="http://localhost:3000";
+const BASE_URL ="http://localhost:5000/api/v1";
 
 // AUTH ENDPOINTS
 export const endpoints = {
+  // SENDOTP_API: "http://localhost:5000/api/v1/auth/sendotp",
+  // SENDOTP_API: BASE_URL + "/auth/sendotp",
   SENDOTP_API: BASE_URL + "/auth/sendotp",
   SIGNUP_API: BASE_URL + "/auth/signup",
   LOGIN_API: BASE_URL + "/auth/login",

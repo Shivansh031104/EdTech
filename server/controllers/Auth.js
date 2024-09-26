@@ -183,7 +183,7 @@ exports.sendotp = async (req, res) => {
   try {
     const { email } = req.body
 
-    // Check if user is already present
+    // Check if user is already present 
     // Find user with provided email
     const checkUserPresent = await User.findOne({ email })
     // to be used in case of signup
